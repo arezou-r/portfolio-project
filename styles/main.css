@@ -32,6 +32,11 @@
         font-size: 64px
     }
     
+    h3 {
+        font-size: 24px;
+        opacity: 0.7;
+    }
+    
     p {
         font-weight: normal;
         font-size: 16px;
@@ -89,6 +94,30 @@
         border: 1px solid var(--branding-color);
     }
     
+    .about-page {
+        margin-top: 100px;
+    }
+    
+    .about-paragraphs {
+        margin: 30px 0 45px 0;
+    }
+    
+    #contact h2 {
+        font-size: 42px;
+    }
+    
+    .email-link {
+        display: flex;
+        justify-content: center;
+        color: var(--branding-color);
+        font-size: 26px;
+        text-decoration: none;
+    }
+    
+    .email-link:hover {
+        text-decoration: underline;
+    }
+    
     @media (max-width: 900px) {
         h1 {
             font-size: 45px;
@@ -103,5 +132,8 @@
         .project-description {
             padding: 0;
             text-align: center;
+        }
+        .email-link {
+            font-size: 20px;
         }
     }
