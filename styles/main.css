@@ -33,10 +33,6 @@
     }
     
     h3 {
-        font-size: 24px;
-    }
-    
-    h4 {
         font-size: 48px;
     }
     
@@ -49,7 +45,7 @@
     .hero {
         background: var(--secondary-color);
         text-align: center;
-        padding: 160px 0;
+        padding: 80px 0;
     }
     
     .hero p {
@@ -98,11 +94,11 @@
     }
     
     .content-container {
-        padding: 120px 60px;
+        padding: 60px 20px 0px 20px;
     }
     
     .content {
-        margin: 30px;
+        margin: 30px 30px 10px 30px;
     }
     
     .content h1 {
@@ -218,11 +214,8 @@
         h2 {
             font-size: 44px;
         }
-        h4 {
+        h3 {
             font-size: 26px;
-        }
-        .hero {
-            padding: 80px 20px;
         }
         .project-description {
             padding: 0;
