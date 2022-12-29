@@ -36,6 +36,10 @@
         font-size: 24px;
     }
     
+    h4 {
+        font-size: 48px;
+    }
+    
     p {
         font-weight: normal;
         font-size: 16px;
@@ -159,6 +163,53 @@
         max-height: 40px;
     }
     
+    footer {
+        margin: 60px 0;
+    }
+    
+    footer .contact-box {
+        background: var(--secondary-color);
+        padding: 30px 120px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    footer .email-link {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+    }
+    
+    footer .email-link:hover {
+        color: var(--branding-color);
+    }
+    
+    footer .social-link a {
+        margin: 0px 20px;
+        color: var(--branding-color);
+        background-color: var(--secondary-color);
+        padding: 10px 14px;
+        font-size: 18px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        transition: all 100ms ease-in-out;
+        -webkit-transition: all 100ms ease-in-out;
+        -moz-transition: all 100ms ease-in-out;
+        -ms-transition: all 100ms ease-in-out;
+        -o-transition: all 100ms ease-in-out;
+    }
+    
+    footer .social-link a:hover {
+        color: #fff;
+        background-color: var(--branding-color);
+    }
+    
     @media (max-width: 900px) {
         h1 {
             font-size: 45px;
@@ -166,6 +217,9 @@
         }
         h2 {
             font-size: 44px;
+        }
+        h4 {
+            font-size: 26px;
         }
         .hero {
             padding: 80px 20px;
